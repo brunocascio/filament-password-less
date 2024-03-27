@@ -101,9 +101,6 @@ class Confirm extends Component implements HasForms
      */
     public function render(): View
     {
-        return view('filament-password-less::confirm')
-            ->layout('filament::components.layouts.card', [
-                'title' => __('filament::login.title'),
-            ]);
+        return view('filament-password-less::confirm');
     }
 }
